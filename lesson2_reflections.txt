@@ -1,0 +1,13 @@
+Q. What happens when you initialize a repository? Why do you need to do it?
+
+This creates a directory containing information that allows git to identify
+the folder as a git repository. The contents of the .git file that is created 
+is modified for each commit to create a navigatable history of changes to the 
+repository.
+
+Q. How is the staging area different from the working directory and the 
+repository? What value do you think it offers?
+
+The staging area allows you to choose which files to commit to the repo. If 
+there were no intermediate staging area then every commit would be a complete
+copy of the working directory, and the user would have no control.
